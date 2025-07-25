@@ -1,0 +1,19 @@
+# --- Python Bytecode ---
+__pycache__/
+*.py[cod]
+
+# --- Virtual Environments ---
+Web Notes App/backend/venv/
+**/.venv/
+**/env/
+**/.env/
+
+# --- Django Local Database ---
+Web Notes App/backend/db.sqlite3
+
+# --- OS / Editor / Temp Files ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

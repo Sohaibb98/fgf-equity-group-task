@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>📒 Notes</h1>
+
+    <!-- Search bar -->
+    <input type="text" id="search" class="search-bar" placeholder="Search notes...">
+
+    <!-- Table to display notes -->
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Details</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody id="notesBody"></tbody>
+        </table>
+    </div>
+
+    <!-- Form to add new note -->
+    <h2>Add a New Note</h2>
+    <form id="noteForm">
+        <input type="text" id="title" placeholder="Title" required>
+        <textarea id="details" placeholder="Details" required></textarea>
+        <button type="submit">Add Note</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
